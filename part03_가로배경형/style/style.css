@@ -97,7 +97,7 @@ nav#gnb{
 /* div#headerFrame */
 
 /* div#gnbGB GNB 배경 */
-div#gnbBGFrame{
+div#gnbGBFrame{
     width: 1200px;
     /*border: 1px solid #f00;*/
     margin: 0 auto;
