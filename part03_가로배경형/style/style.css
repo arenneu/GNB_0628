@@ -45,15 +45,6 @@ nav#gnb{
 
 }
 
-#gnb li.mainLi>a{
-    border: 1px solid #ccc;
-    border-bottom: none;
-}
-
-#gnb li.subLi>a{
-    color: #fff;
-}
-
 #gnb a{
     width: 150px;
     height: 48px;
@@ -67,28 +58,39 @@ nav#gnb{
     font-weight: bold;
 }
 
+#gnb li.mainLi>a{
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+
+
+#gnb ul.subMenu {
+    display: none;
+    position: absolute;
+    z-index: 999;
+}
+
+#gnb li.subLi>a{
+    color: #fff;
+}
+
 /* gnb 메뉴 하이라이트 */
 
 #gnb li.mainLi:hover>a{
     color: #fff;
     background-color: #f88;
-
 }
 
 #gnb li.subLi>a:hover{
-    color: #555;
-    background-color: #fff;
+    color: #777;
+    background-color: #eee;
 
 }
 
 
 /* gnb 메뉴 하이라이트 */
 
-#gnb ul.subMenu {
-    display: none;
-    position: absolute;
-    z-index: 1;
-}
+
 
 /* nav#gnb */
 
@@ -97,20 +99,19 @@ nav#gnb{
 /* div#gnbGB GNB 배경 */
 div#gnbBGFrame{
     width: 1200px;
-    height: 900px;
     /*border: 1px solid #f00;*/
     margin: 0 auto;
     position: relative;
 }
 
 div#gnbBG{
-    width: 100%;
+    width: 1200px;
     height: 192px;
     /*border: 1px solid #f80;*/
-
-    display: none;
-    position: absolute;
     background-color: #f88;
+
+    position: absolute;
+    display: none;
 }
 
 /* div#gnbGB GNB 배경 */
