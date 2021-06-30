@@ -7,6 +7,6 @@ $(function(){
     });
 
     $("li.mainLi").mouseout(function(){
-        $(this).children("ul.subMenu").stop().hide();
+        $(this).children("ul.subMenu").stop().slideUp(10);
     });
 });
